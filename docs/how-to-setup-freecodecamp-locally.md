@@ -260,8 +260,6 @@ This single command will fire up all the services, including the API server and 
 > [!TIP]
 > The API Server serves APIs at `http://localhost:3000`. The Gatsby app serves the client application at `http://localhost:8000`
 
-> If you visit <http://localhost:3000/explorer> you should see the available APIs.
-
 ## Sign in with a local user
 
 Your local setup automatically populates a local user in the database. Clicking the `Sign In` button will automatically authenticate you into the local application.
@@ -277,6 +275,8 @@ Simply clicking the **"Preview Custom 404 Page"** button will forward you to the
    <br>
    <img src="https://user-images.githubusercontent.com/29990697/71541249-f63cdf00-2923-11ea-8a85-cefb6f9c9977.gif" alt="How to sign in when working locally">
 </details>
+
+> Once signed in, if you visit <http://localhost:3000/explorer> you should see the available APIs.
 
 ## Making changes locally
 
